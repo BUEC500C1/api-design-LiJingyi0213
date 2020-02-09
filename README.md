@@ -20,7 +20,7 @@ Using OpenWeatherAPI to created an API. The function of this API is that enter t
 - Enter an airport name, then we can get the information of this airport.
 
 ## Project Demo
-Enter airpot name(for example:Lindu Airport)
+Enter airport name(for example:Lindu Airport)
 
 Result:
 
