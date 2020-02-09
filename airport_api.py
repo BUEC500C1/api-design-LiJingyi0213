@@ -8,15 +8,15 @@ def airportWeather(Airport_name):
   with open(filename, 'r') as csvfile: 
      csvreader = csv.reader(csvfile) 
      for row in csvreader:
-        airports_dic[row[3]]=(row[10],row[8])
+        airports_dic[row[3].lower()]=(row[10],row[8])
         # print(row[3],row[8],row[10])
 
-  i,j=airports_dic[Airport_name]
+  i,j=airports_dic[Airport_name.lower()]
   r = requests.get('https://openweathermap.org/data/2.5/weather?q={},{}&appid=b6907d289e10d714a6e88b30761fae22'.format(i,j)).json()
   pprint(r)
+  return r
+# def main ():
+#   airportWeather("Lindu Airport")
 
-def main ():
-  airportWeather("Lindu Airport")
-
-if __name__ == '__main__':
-  main()
+# if __name__ == '__main__':
+#   main()
