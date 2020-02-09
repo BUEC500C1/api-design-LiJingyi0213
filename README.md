@@ -20,4 +20,4 @@ Using OpenWeatherAPI to created an API. The function of this API is that enter t
 - Enter an airport name, then we can get the information of this airport.
 
 ## Project Demo
-https://github.com/BUEC500C1/api-design-LiJingyi0213/blob/master/270e2421a98ebf794a4c14151fff11b.png
+![](https://github.com/BUEC500C1/api-design-LiJingyi0213/blob/master/270e2421a98ebf794a4c14151fff11b.png)
